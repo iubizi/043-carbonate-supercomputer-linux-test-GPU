@@ -1,0 +1,22 @@
+# 查看所有可用的模块（redhat）
+module avail
+
+# 查看目前已加载的模块（redhat）
+module list
+
+# 加载模块
+module load deeplearning
+
+# 启动
+sbatch test_GPU.sh
+
+# 查看队列
+squeue -u ****
+
+# 取消一个
+scancel 2467851
+
+# 取消所有
+scancel -u ****（不要用，用单项取消那个）
+
+# 不能有\r，Unix不认
