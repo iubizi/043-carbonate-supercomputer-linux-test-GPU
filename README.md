@@ -100,3 +100,20 @@ Epoch 19/20
 Epoch 20/20
 1563/1563 - 17s - loss: 0.0709 - accuracy: 0.9775 - val_loss: 1.0790 - val_accuracy: 0.7905
 ```
+
+## error
+
+```
+Python programming language version 3.8.2 loaded.
+gcc version 6.3.0 unloaded.
+gcc version 9.1.0 loaded.
+Python programming language version 3.8.2 unloaded.
+openmpi version 4.0.1 loaded.
+Deep Learning stack for Cuda 11.2 loaded
+2022-06-24 01:29:48.585733: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-06-24 01:29:49.124502: W tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:39] Overriding allow_growth setting because the TF_FORCE_GPU_ALLOW_GROWTH environment variable is set. Original config value was 0.
+2022-06-24 01:29:49.124565: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1510] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 15405 MB memory:  -> device: 0, name: Tesla P100-PCIE-16GB, pci bus id: 0000:58:00.0, compute capability: 6.0
+2022-06-24 01:29:51.321000: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:185] None of the MLIR Optimization Passes are enabled (registered 2)
+2022-06-24 01:29:53.276541: I tensorflow/stream_executor/cuda/cuda_dnn.cc:369] Loaded cuDNN version 8100
+```
